@@ -72,7 +72,7 @@ val_table_data = dummy_table_data
 # load word embedding
 tic = time()
 print('==> loading word embedding')
-word_emb = load_word_emb('glove/glove.%dB.%dd.txt'%(B_word,N_word), load_used=args.train_emb, use_small=USE_SMALL)
+word_emb = load_word_emb('glove.%dB.%dd.txt'%(B_word,N_word), load_used=args.train_emb, use_small=USE_SMALL)
 
 #words = ['what', 'are', 'the', 'account', 'numbers', 'with', 'open', 'account', 'days', 'below', '120', 'days', '?']
 #selected_emb = {}
