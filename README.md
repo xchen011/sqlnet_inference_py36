@@ -1,5 +1,6 @@
 # SQLNet with Custom Inference
 `W. Ronny Huang // ronny.huang@ey.com`
+`Xin Chen // xin.chen3@ey.com`
 
 This repo provides an implementation of the SQLNet neural network for predicting SQL queries on [WikiSQL dataset](https://github.com/salesforce/WikiSQL) and on your own custom dataset. The original paper on SQLNet is available at [here](https://arxiv.org/abs/1711.04436).
 
